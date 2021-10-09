@@ -44,4 +44,4 @@ THEN the saved events persist
 [![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler4.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
 
 
-[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
+[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler1.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
