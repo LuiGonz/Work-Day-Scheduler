@@ -4,6 +4,65 @@
   width: 100%
 } */
 
+nav {
+  margin-bottom: 3em;
+}
+
+button:hover {
+  background-color:#506AD4;
+}
+
+button {
+display: block;
+color: #506AD4;
+font-weight: bold;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+font-size: 30px;
+background-color:#ff9d00;
+}
+
+button:hover {
+background-color: #506AD4;
+text-decoration: none;
+color: #ff9d00;
+}
+
+
+.nav-btn {
+  border-radius: 15px;
+  border: 1px solid #ff9d00;
+  box-shadow: 12px 12px 5px 1px #00805b;
+  margin: 1em;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}
+
+.nav-btn:active {
+  transform: translate(6px, 6px);
+  box-shadow: 8px 8px 5px #006145;
+}
+
+ul {
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.nav-btn {
+  background-color:#ff9d00;
+  width: 200px;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -27,7 +86,7 @@ textarea{
   color: #181717;
   font-size: larger;
   font-weight: bold;
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   padding: 10px;
 }
 
@@ -36,7 +95,10 @@ textarea{
   background-color: #00bb86;
   color: #00523a;
   border-radius: 0;
-  border-bottom: 20px solid #ff9d00;
+  border: 20px solid #ff9d00;
+  box-shadow: 15px 15px 5px 5px #42508b;
+  border-radius: 3em;
+  margin: 3em 3em 3em 3em;
 }
 
 .description{
@@ -60,9 +122,10 @@ textarea{
 .hour {
   background-color: #7c2c2c;
   color: #ff8989;
+  border: 1px solid #7c2c2c;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-left: .5em;
   padding-right: .5em;
 }
@@ -83,7 +146,7 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid #156274;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #156274;
@@ -99,4 +162,38 @@ textarea{
 .saveBtn:active {
   transform: translate(6px, 6px);
   box-shadow: 8px 8px 5px #61501f;
+}
+
+.top-screen-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+
+.top-screen-btn {
+  border-radius: 15px;
+  color: #506AD4;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  background-color:#ff9d00;
+  border: 1px solid #ff9d00;
+  box-shadow: 12px 12px 5px 1px #42508b;
+}
+
+.top-screen-btn a {
+  text-decoration: none;
+}
+
+.top-screen-btn:hover {
+  cursor: pointer;
+  color: #ffd24c;
+  background-color: #00bb86;
+}
+
+.top-screen-btn:active {
+  transform: translate(6px, 6px);
+  box-shadow: 8px 8px 5px #2b365f;
 }

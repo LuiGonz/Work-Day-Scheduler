@@ -1,16 +1,30 @@
-// window.onscroll = function() {myFunction()};
+function myMonday() {
+    window.location.href = "index.html";
+}
 
-// var header = document.getElementById("myHeader");
+function myTuesday() {
+    window.location.href = "tuesday.html";
+}
 
-// var sticky = header.offsetTop;
+function myWednesday() {
+    window.location.href = "wednesday.html";
+}
 
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// };
+function myThursday() {
+    window.location.href = "thursday.html";
+}
+
+function myFriday() {
+    window.location.href = "friday.html";
+}
+
+function mySaturday() {
+    window.location.href = "saturday.html";
+}
+
+function mySunday() {
+    window.location.href = "sunday.html";
+}
 
 // Displays current Date and time
 setInterval(function () {
@@ -52,7 +66,7 @@ $(document).ready(function () {
 
         // col-1 save button 
         const button = $("<button>");
-        const icon = $("<i class='fas fa-save fa-2x'></i>")
+        const icon = $("<i class='fas fa-save fa-lg'></i>")
         button.addClass("col-1 saveBtn");
         button.append(icon);
         row.append(button);
