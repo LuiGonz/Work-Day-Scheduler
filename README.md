@@ -50,6 +50,4 @@ THEN the saved events persist
 ```
 
 
-```md
 [![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
-```
