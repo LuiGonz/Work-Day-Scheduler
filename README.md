@@ -32,5 +32,24 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+## Screenshots
 
-![Work-Day-Scheduler](./img/Work-Day-Scheduler2.png)
+
+```md
+[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler2.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
+```
+
+
+```md
+[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler3.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
+```
+
+
+```md
+[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler4.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
+```
+
+
+```md
+[![Work-Day-Scheduler](https://luigonz.github.io/Work-Day-Scheduler/assets/img/Work-Day-Scheduler.png)](https://luigonz.github.io/Work-Day-Scheduler/?raw=true)
+```
